@@ -1,0 +1,9 @@
+package com.hotelroombooking.app.io.repositories;
+
+import com.hotelroombooking.app.io.entity.UserEntity;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends CrudRepository<UserEntity, Long> {
+}
